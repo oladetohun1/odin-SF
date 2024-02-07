@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <div class="background">
+            <img src="./Assets/image/leafBg.jpg" alt="background image">
+            <div class="black"></div>
+            <div class="logo">
+                <img src="./Assets/Logo/odin-lined.png" alt="">
+                <h2>ODIN</h2>
+            </div>
+        </div>
+        <div class="form">
+            <h2>This is not a real service! You know you need something like this in your life to help you realize your
+                deepest dreams. Sign up now to get started.</h2>
+            <h2>You know you want to.</h2>
+            <form action="">
+                <h2>Let's do this!</h2>
+                <div class="form-grid">
+                    <div>
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" id="fname" name="fname" required>
+                    </div>
+                    <div>
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" id="lname" name="lname" required>
+                    </div>
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <div>
+                        <label for="cpassword">CONFIRM PASSWORD</label>
+                        <input type="password" id="cpassword" name="cpassword" required>
+                    </div>
+                    <div id="output"></div>
+                </div>
+                <button type="submit">Create Account</button>
+            </form>
+            <p>Already have an account? <span>Login</span></p>
+        </div>
+    </div>
+   <script src="./script.js"></script>
 </body>
+
 </html>
